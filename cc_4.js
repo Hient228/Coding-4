@@ -54,3 +54,11 @@ let products = ["Laptop", "Mouse", "Keyboard"];
 for (let product of products) {
     console.log(`Product: ${product}`);
 }
+
+//Task 7: forEach() Method
+let orders = [101, 102, 103];
+
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
+
