@@ -69,3 +69,10 @@ function calculateTax(amount) {
 
 console.log("Return of calculated tax:", calculateTax(1000));
 
+//Task 9: Function Expressions
+function applydiscount(number) {
+    return number * 0.30
+}
+console.log("Discount is:" , applydiscount(300))
+PriceAfterDiscount = 300 - applydiscount(300)
+console.log("Price After 30% discount", PriceAfterDiscount )
