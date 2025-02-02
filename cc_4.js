@@ -10,7 +10,7 @@ if (purchaseAmount > 100) {
 console.log(`Final amount after discount: $${finalAmount}`);
 
 //Task 2: For Loop
-let sales = [10, 70, 130, 90, 85];
+let sales =[120, 85, 200, 150, 90];
 let totalSales = 0;
 
 for (let i = 0; i < sales.length; i++) {
@@ -18,3 +18,13 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 console.log(`Total sales: $${totalSales}`);
+
+//Task 3: While Loop
+let stock = 10;
+
+while (stock > 0) {
+    console.log(`Current stock: ${stock}`);
+    stock--;
+}
+
+console.log("Stock is depleted.");
