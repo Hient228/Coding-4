@@ -76,3 +76,11 @@ function applydiscount(number) {
 console.log("Discount is:" , applydiscount(300))
 PriceAfterDiscount = 300 - applydiscount(300)
 console.log("Price After 30% discount", PriceAfterDiscount )
+
+//Task 10: Arrow Functions
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10 );
+};
+let points = calculatePoints(200);
+
+console.log(`Loyalty earned points: ${points}`);
